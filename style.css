@@ -1,0 +1,129 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+
+  margin: 0;
+
+  padding: 0;
+
+  box-sizing: border-box;
+
+  font-family: "Poppins", sans-serif;
+
+  font-weight: 500;
+
+}
+
+body {
+
+  display: flex;
+
+  justify-content: center;
+
+  align-items: center;
+
+  height: 90vh;
+
+  width: 100%;
+
+  background-color: #007bff;
+
+}
+
+.box {
+
+  width: 65vh;
+
+  position: relative;
+
+  background-color: #fff;
+
+  padding: 20px 20px;
+
+  display: flex;
+
+  justify-content: center;
+
+  align-items: center;
+
+  border-radius: 4px;
+
+  box-shadow: 0 6px 10px rgb(0, 0, 0, 0.2);
+
+}
+
+.box label {
+
+  position: absolute;
+
+  top: 25px;
+
+  left: 30px;
+
+  color: #007bff;
+
+  font-size: 15px;
+
+}
+
+.box textarea {
+
+  padding: 20px 10px;
+
+  border-radius: 6px;
+
+  border: 2px solid #bfbfbf;
+
+  resize: none;
+
+  outline: none;
+
+  caret-color: #007bff;
+
+  font-size: 15px;
+
+  font-weight: 500;
+
+}
+
+.box textarea::placeholder {
+
+  font-size: 15px;
+
+  font-weight: 500;
+
+}
+
+.box textarea:focus {
+
+  border: 2px solid #007bff;
+
+}
+
+.box textarea:valid {
+
+  border: 2px solid #007bff;
+
+  /* to use :valid you should set attribute "required" in html */
+
+}
+
+.box .lettersNum {
+
+  position: absolute;
+
+  bottom: 25px;
+
+  right: 30px;
+
+  font-size: 13px;
+
+  color: #007bff;
+
+  display: none;
+
+  justify-content: center;
+
+  align-items: center;
+
+}
